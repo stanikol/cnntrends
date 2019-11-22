@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="cnn-trends"
+		module="cnn-trends_2.12"
+		revision="1.0"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, docker, windows, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20191122141523"/>
+	<dependencies>
+		<module organisation="com.lightbend.akka" name="akka-stream-alpakka-slick_2.12">
+			<revision name="2.0.0-M1" status="release" pubdate="20191108144030" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://doc.akka.io/docs/alpakka/current" extra-info.apiURL="https://doc.akka.io/api/alpakka/2.0.0-M1/akka/stream/alpakka/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4327" time="0" location="/Users/snc/.ivy2/cache/com.lightbend.akka/akka-stream-alpakka-slick_2.12/ivy-2.0.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-slick_2.12/2.0.0-M1/akka-stream-alpakka-slick_2.12-2.0.0-M1.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="2.0.0-M1" rev-constraint-default="2.0.0-M1" rev-constraint-dynamic="2.0.0-M1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-stream-alpakka-slick_2.12" type="jar" ext="jar" status="no" details="" size="22212" time="0" location="/Users/snc/.ivy2/cache/com.lightbend.akka/akka-stream-alpakka-slick_2.12/jars/akka-stream-alpakka-slick_2.12-2.0.0-M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lightbend/akka/akka-stream-alpakka-slick_2.12/2.0.0-M1/akka-stream-alpakka-slick_2.12-2.0.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.h2database" name="h2">
+			<revision name="1.4.200" status="release" pubdate="20191014102514" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://h2database.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="45">
+				<license name="MPL 2.0 or EPL 1.0" url="https://h2database.com/html/license.html"/>
+				<metadata-artifact status="no" details="" size="2452" time="0" location="/Users/snc/.ivy2/cache/com.h2database/h2/ivy-1.4.200.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="1.4.200" rev-constraint-default="1.4.200" rev-constraint-dynamic="1.4.200" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="h2" type="jar" ext="jar" status="no" details="" size="2303679" time="0" location="/Users/snc/.ivy2/cache/com.h2database/h2/jars/h2-1.4.200.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/h2database/h2/1.4.200/h2-1.4.200.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick-hikaricp_2.12">
+			<revision name="3.3.2" status="release" pubdate="20190615155015" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="44">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.3.2/slick-hikaricp_2.12-3.3.2.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="1.0"/>
+				<caller organisation="com.lightbend.akka" name="akka-stream-alpakka-slick_2.12" conf="default, compile, runtime, master" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="2.0.0-M1"/>
+				<artifacts>
+					<artifact name="slick-hikaricp_2.12" type="bundle" ext="jar" status="no" details="" size="8235" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/bundles/slick-hikaricp_2.12-3.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.3.2/slick-hikaricp_2.12-3.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.3.1" status="release" pubdate="20190528221609" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.slick/slick-hikaricp_2.12/ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.12/3.3.1/slick-hikaricp_2.12-3.3.1.pom"/>
+				<evicted-by rev="3.3.2"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.slick" name="slick_2.12">
+			<revision name="3.3.2" status="release" pubdate="20190615155028" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="43">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3299" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.2/slick_2.12-3.3.2.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="1.0"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="compile, runtime" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="3.3.2"/>
+				<caller organisation="com.lightbend.akka" name="akka-stream-alpakka-slick_2.12" conf="default, compile, runtime, master" rev="3.3.2" rev-constraint-default="3.3.2" rev-constraint-dynamic="3.3.2" callerrev="2.0.0-M1"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="slick_2.12" type="bundle" ext="jar" status="no" details="" size="3933483" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.slick/slick_2.12/bundles/slick_2.12-3.3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.2/slick_2.12-3.3.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.3.1" status="release" pubdate="20190528214755" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://slick.typesafe.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
+				<license name="Two-clause BSD-style license" url="http://github.com/slick/slick/blob/master/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="3299" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.slick/slick_2.12/ivy-3.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/slick/slick_2.12/3.3.1/slick_2.12-3.3.1.pom"/>
+				<evicted-by rev="3.3.2"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="1.0"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="3.3.1" rev-constraint-default="3.3.1" rev-constraint-dynamic="3.3.1" callerrev="3.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="3.2.0" status="release" pubdate="20180530094537" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8024" time="0" location="/Users/snc/.ivy2/cache/com.zaxxer/HikariCP/ivy-3.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="compile, runtime" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="3.2.0" rev-constraint-default="3.2.0" rev-constraint-dynamic="3.2.0" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="HikariCP" type="bundle" ext="jar" status="no" details="" size="143577" time="0" location="/Users/snc/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-3.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-nop">
+			<revision name="1.7.26" status="release" pubdate="20190219011709" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="40">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5222" time="0" location="/Users/snc/.ivy2/cache/org.slf4j/slf4j-nop/ivy-1.7.26.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.26/slf4j-nop-1.7.26.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="1.7.26" rev-constraint-default="1.7.26" rev-constraint-dynamic="1.7.26" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="slf4j-nop" type="jar" ext="jar" status="no" details="" size="4010" time="0" location="/Users/snc/.ivy2/cache/org.slf4j/slf4j-nop/jars/slf4j-nop-1.7.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-nop/1.7.26/slf4j-nop-1.7.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-collection-compat_2.12">
+			<revision name="2.0.0" status="release" pubdate="20190517211904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="scala-collection-compat_2.12" type="bundle" ext="jar" status="no" details="" size="101292" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-collection-compat_2.12/bundles/scala-collection-compat_2.12-2.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-java">
+			<revision name="3.141.59" status="release" pubdate="20181114102412" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6202" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-java/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="selenium-java" type="jar" ext="jar" status="no" details="" size="355" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-java/jars/selenium-java-3.141.59.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-support">
+			<revision name="3.141.59" status="release" pubdate="20181114101820" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4328" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-support/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-support" type="jar" ext="jar" extra-classifier="" status="no" details="" size="151127" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-support/jars/selenium-support-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-safari-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114102343" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4340" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-safari-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="15935" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-safari-driver/jars/selenium-safari-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-opera-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114102308" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4338" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-opera-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-opera-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="10799" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-opera-driver/jars/selenium-opera-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-ie-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114102134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4332" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-ie-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="17220" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-ie-driver/jars/selenium-ie-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-firefox-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114102003" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4342" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="selenium-firefox-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="810396" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-edge-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114101920" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4336" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-edge-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="8033" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-edge-driver/jars/selenium-edge-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-chrome-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114101844" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4340" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-chrome-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="13741" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-chrome-driver/jars/selenium-chrome-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-remote-driver">
+			<revision name="3.141.59" status="release" pubdate="20181114102327" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4068" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-remote-driver" type="jar" ext="jar" extra-classifier="" status="no" details="" size="333950" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okhttp3" name="okhttp">
+			<revision name="3.11.0" status="release" pubdate="20180713064220" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6684" time="0" location="/Users/snc/.ivy2/cache/com.squareup.okhttp3/okhttp/ivy-3.11.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-remote-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="3.11.0" rev-constraint-default="3.11.0" rev-constraint-dynamic="3.11.0" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="okhttp" type="jar" ext="jar" extra-classifier="" status="no" details="" size="413639" time="0" location="/Users/snc/.ivy2/cache/com.squareup.okhttp3/okhttp/jars/okhttp-3.11.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.squareup.okio" name="okio">
+			<revision name="1.14.0" status="release" pubdate="20180212042139" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4944" time="0" location="/Users/snc/.ivy2/cache/com.squareup.okio/okio/ivy-1.14.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-remote-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="com.squareup.okhttp3" name="okhttp" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.11.0"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="1.14.0" rev-constraint-default="1.14.0" rev-constraint-dynamic="1.14.0" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="okio" type="jar" ext="jar" extra-classifier="" status="no" details="" size="85756" time="0" location="/Users/snc/.ivy2/cache/com.squareup.okio/okio/jars/okio-1.14.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="25.0-jre" status="release" pubdate="20180426012855" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7546" time="0" location="/Users/snc/.ivy2/cache/com.google.guava/guava/ivy-25.0-jre.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/25.0-jre/guava-25.0-jre.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-remote-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="25.0-jre" rev-constraint-default="25.0-jre" rev-constraint-dynamic="25.0-jre" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="guava" type="jar" ext="jar" extra-classifier="" status="no" details="" size="2738171" time="0" location="/Users/snc/.ivy2/cache/com.google.guava/guava/jars/guava-25.0-jre.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.14" status="release" pubdate="20150225185330" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4565" time="0" location="/Users/snc/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="25.0-jre"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="jar" ext="jar" status="no" details="" size="3482" time="0" location="/Users/snc/.ivy2/cache/org.codehaus.mojo/animal-sniffer-annotations/jars/animal-sniffer-annotations-1.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.1" status="release" pubdate="20170119010659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3174" time="0" location="/Users/snc/.ivy2/cache/com.google.j2objc/j2objc-annotations/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="25.0-jre"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="jar" ext="jar" status="no" details="" size="8782" time="0" location="/Users/snc/.ivy2/cache/com.google.j2objc/j2objc-annotations/jars/j2objc-annotations-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.1.3" status="release" pubdate="20171129000614" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4103" time="0" location="/Users/snc/.ivy2/cache/com.google.errorprone/error_prone_annotations/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="25.0-jre"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="jar" ext="jar" status="no" details="" size="13704" time="0" location="/Users/snc/.ivy2/cache/com.google.errorprone/error_prone_annotations/jars/error_prone_annotations-2.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-compat-qual">
+			<revision name="2.0.0" status="release" pubdate="20160503053856" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="GNU General Public License, version 2 (GPL2), with the classpath exception" url="http://www.gnu.org/software/classpath/license.html"/>
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2832" time="0" location="/Users/snc/.ivy2/cache/org.checkerframework/checker-compat-qual/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="25.0-jre"/>
+				<artifacts>
+					<artifact name="checker-compat-qual" type="jar" ext="jar" status="no" details="" size="31547" time="0" location="/Users/snc/.ivy2/cache/org.checkerframework/checker-compat-qual/jars/checker-compat-qual-2.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="1.3.9" status="release" pubdate="20090825012822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2519" time="0" location="/Users/snc/.ivy2/cache/com.google.code.findbugs/jsr305/ivy-1.3.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="compile, runtime" rev="1.3.9" rev-constraint-default="1.3.9" rev-constraint-dynamic="1.3.9" callerrev="25.0-jre"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="33015" time="0" location="/Users/snc/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-exec">
+			<revision name="1.3" status="release" pubdate="20141103022715" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-exec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10376" time="0" location="/Users/snc/.ivy2/cache/org.apache.commons/commons-exec/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-remote-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="commons-exec" type="jar" ext="jar" extra-classifier="" status="no" details="" size="54423" time="0" location="/Users/snc/.ivy2/cache/org.apache.commons/commons-exec/jars/commons-exec-1.3.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.bytebuddy" name="byte-buddy">
+			<revision name="1.8.15" status="release" pubdate="20180727004927" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6746" time="0" location="/Users/snc/.ivy2/cache/net.bytebuddy/byte-buddy/ivy-1.8.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-remote-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="1.8.15" rev-constraint-default="1.8.15" rev-constraint-dynamic="1.8.15" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="byte-buddy" type="jar" ext="jar" extra-classifier="" status="no" details="" size="2987269" time="0" location="/Users/snc/.ivy2/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.8.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.seleniumhq.selenium" name="selenium-api">
+			<revision name="3.141.59" status="release" pubdate="20181114101754" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.seleniumhq.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2591" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-api/ivy-3.141.59.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.pom"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-firefox-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-remote-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-safari-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-java" conf="default, compile, runtime, master" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-opera-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-chrome-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-support" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-ie-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<caller organisation="org.seleniumhq.selenium" name="selenium-edge-driver" conf="compile, runtime" rev="3.141.59" rev-constraint-default="3.141.59" rev-constraint-dynamic="3.141.59" callerrev="3.141.59"/>
+				<artifacts>
+					<artifact name="selenium-api" type="jar" ext="jar" extra-classifier="" status="no" details="" size="182089" time="0" location="/Users/snc/.ivy2/cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-3.141.59.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="2.0.0-M1" status="release" pubdate="20191022045417" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="https://scala.github.io/scala-xml/api/2.0.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3434" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-2.0.0-M1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.0.0-M1/scala-xml_2.12-2.0.0-M1.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="2.0.0-M1" rev-constraint-default="2.0.0-M1" rev-constraint-dynamic="2.0.0-M1" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="bundle" ext="jar" status="no" details="" size="477951" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-2.0.0-M1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/2.0.0-M1/scala-xml_2.12-2.0.0-M1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.6.0" status="release" pubdate="20191106112203" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="12">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3798" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.0/akka-stream_2.12-2.6.0.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="1.0"/>
+				<caller organisation="com.lightbend.akka" name="akka-stream-alpakka-slick_2.12" conf="default, compile, runtime, master" rev="2.5.26" rev-constraint-default="2.5.26" rev-constraint-dynamic="2.5.26" callerrev="2.0.0-M1"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="jar" ext="jar" status="no" details="" size="4490309" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.0/akka-stream_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.5.26" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.6.0"/>
+				<caller organisation="com.lightbend.akka" name="akka-stream-alpakka-slick_2.12" conf="default, compile, runtime, master" rev="2.5.26" rev-constraint-default="2.5.26" rev-constraint-dynamic="2.5.26" callerrev="2.0.0-M1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.4.0" status="release" pubdate="20191014173415" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3536" time="0" location="/Users/snc/.ivy2/cache/com.typesafe/ssl-config-core_2.12/ivy-0.4.0.xml" searched="false" origin-is-local="false" origin-location="file:////Users/snc/.sbt/preloaded/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="default, compile, runtime, master" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="bundle" ext="jar" status="no" details="" size="302975" time="0" location="/Users/snc/.ivy2/cache/com.typesafe/ssl-config-core_2.12/bundles/ssl-config-core_2.12-0.4.0.jar">
+						<origin-location is-local="false" location="file:////Users/snc/.sbt/preloaded/com/typesafe/ssl-config-core_2.12/0.4.0/ssl-config-core_2.12-0.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.1.2" status="release" pubdate="20190406005736" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="17">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.4.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="222980" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.3" status="release" pubdate="20190823115010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/snc/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="default, compile, runtime, master" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="jar" ext="jar" status="no" details="" size="11369" time="0" location="/Users/snc/.ivy2/cache/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.0.3"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="3.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf-v3_2.12">
+			<revision name="2.6.0" status="release" pubdate="20191106111915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2941" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.0/akka-protobuf-v3_2.12-2.6.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="akka-protobuf-v3_2.12" type="jar" ext="jar" status="no" details="" size="1679571" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-protobuf-v3_2.12/jars/akka-protobuf-v3_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.0/akka-protobuf-v3_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.10.0" status="release" pubdate="20190919035539" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="5771" time="0" location="/Users/snc/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-3.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-protobuf-v3_2.12" conf="compile, runtime" rev="3.10.0" rev-constraint-default="3.10.0" rev-constraint-dynamic="3.10.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="1664677" time="0" location="/Users/snc/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-3.10.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http_2.12">
+			<revision name="10.1.10" status="release" pubdate="20190920130353" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.10/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3181" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-http_2.12/ivy-10.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.10/akka-http_2.12-10.1.10.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="10.1.10" rev-constraint-default="10.1.10" rev-constraint-dynamic="10.1.10" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-http_2.12" type="jar" ext="jar" status="no" details="" size="1764523" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http_2.12/10.1.10/akka-http_2.12-10.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
+			<revision name="10.1.10" status="release" pubdate="20190920130333" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.10/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3800" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/ivy-10.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.10/akka-http-core_2.12-10.1.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http_2.12" conf="default, compile, runtime, master" rev="10.1.10" rev-constraint-default="10.1.10" rev-constraint-dynamic="10.1.10" callerrev="10.1.10"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.12" type="jar" ext="jar" status="no" details="" size="3586437" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.10/akka-http-core_2.12-10.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
+			<revision name="10.1.10" status="release" pubdate="20190920130325" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.10/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3180" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/ivy-10.1.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.10/akka-parsing_2.12-10.1.10.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.12" conf="compile, runtime" rev="10.1.10" rev-constraint-default="10.1.10" rev-constraint-dynamic="10.1.10" callerrev="10.1.10"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.12" type="jar" ext="jar" status="no" details="" size="966460" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-parsing_2.12/jars/akka-parsing_2.12-10.1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.10/akka-parsing_2.12-10.1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor-typed_2.12">
+			<revision name="2.6.0" status="release" pubdate="20191106112234" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3512" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-actor-typed_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.0/akka-actor-typed_2.12-2.6.0.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="akka-actor-typed_2.12" type="jar" ext="jar" status="no" details="" size="700205" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-actor-typed_2.12/jars/akka-actor-typed_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.0/akka-actor-typed_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.12">
+			<revision name="2.6.0" status="release" pubdate="20191106112119" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3604" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.0/akka-slf4j_2.12-2.6.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor-typed_2.12" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.12" type="jar" ext="jar" status="no" details="" size="16769" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.12/jars/akka-slf4j_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.0/akka-slf4j_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170331222753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10412" time="0" location="/Users/snc/.ivy2/cache/ch.qos.logback/logback-classic/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="logback-classic" type="jar" ext="jar" status="no" details="" size="290339" time="0" location="/Users/snc/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170331222715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7917" time="0" location="/Users/snc/.ivy2/cache/ch.qos.logback/logback-core/ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.2.3"/>
+				<artifacts>
+					<artifact name="logback-core" type="jar" ext="jar" status="no" details="" size="471901" time="0" location="/Users/snc/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.28" status="release" pubdate="20190810112721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5347" time="0" location="/Users/snc/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.28.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.12" conf="compile, runtime" rev="1.7.28" rev-constraint-default="1.7.28" rev-constraint-dynamic="1.7.28" callerrev="2.6.0"/>
+				<caller organisation="org.slf4j" name="slf4j-nop" conf="default, compile, runtime, master" rev="1.7.26" rev-constraint-default="1.7.26" rev-constraint-dynamic="1.7.26" callerrev="1.7.26"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.3.2"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor-typed_2.12" conf="default, compile, runtime, master" rev="1.7.28" rev-constraint-default="1.7.28" rev-constraint-dynamic="1.7.28" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.3.1"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.2.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41117" time="0" location="/Users/snc/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.28.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.7.26" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.28"/>
+				<caller organisation="org.slf4j" name="slf4j-nop" conf="default, compile, runtime, master" rev="1.7.26" rev-constraint-default="1.7.26" rev-constraint-dynamic="1.7.26" callerrev="1.7.26"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.28"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.3.2"/>
+				<caller organisation="ch.qos.logback" name="logback-classic" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="1.2.3"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.3.1"/>
+				<caller organisation="com.zaxxer" name="HikariCP" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.6.0" status="release" pubdate="20191106111908" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.0" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3361" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.0/akka-actor_2.12-2.6.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.12" conf="compile, runtime" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor-typed_2.12" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="jar" ext="jar" status="no" details="" size="3524127" time="0" location="/Users/snc/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.0/akka-actor_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161030011227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="bundle" ext="jar" status="no" details="" size="1165728" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.4.0" status="release" pubdate="20191012102341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, master(*)" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3138" time="0" location="/Users/snc/.ivy2/cache/com.typesafe/config/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.4.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="294174" time="0" location="/Users/snc/.ivy2/cache/com.typesafe/config/bundles/config-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.3.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.4.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="1.3.2" rev-constraint-default="1.3.2" rev-constraint-dynamic="1.3.2" callerrev="3.3.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.3.3" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.4.0"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="0.4.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.10" status="release" pubdate="20191014173415" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.10/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2478" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.10.xml" searched="false" origin-is-local="false" origin-location="file:////Users/snc/.sbt/preloaded/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.pom"/>
+				<caller organisation="com.typesafe" name="ssl-config-core_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="0.4.0"/>
+				<caller organisation="cnn-trends" name="cnn-trends_2.12" conf="compile-internal, compile, provided, optional" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="1.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-http_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="10.1.10"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="0.8.0"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="3.3.2"/>
+				<caller organisation="com.typesafe.akka" name="akka-stream_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-http-core_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="10.1.10"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.0.0-M1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor-typed_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="3.3.1"/>
+				<caller organisation="com.lightbend.akka" name="akka-stream-alpakka-slick_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.0.0-M1"/>
+				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.6.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.6.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-collection-compat_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="2.0.0"/>
+				<caller organisation="com.typesafe.akka" name="akka-parsing_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="10.1.10"/>
+				<caller organisation="com.typesafe.slick" name="slick_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="3.3.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="1.1.2"/>
+				<caller organisation="com.typesafe.slick" name="slick-hikaricp_2.12" conf="default, compile, runtime, master" rev="2.12.10" rev-constraint-default="2.12.10" rev-constraint-dynamic="2.12.10" callerrev="3.3.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5276900" time="0" location="/Users/snc/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.10.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,98 @@
+[0m[[0m[0mdebug[0m] [0m[0mExecuting Native docker build --force-rm -t cnn-trends:1.0 .[0m
+[0m[[0m[0mdebug[0m] [0m[0mWorking directory /Users/snc/scala/cnntrends/target/docker/stage[0m
+[0m[[0m[0minfo[0m] [0m[0mSending build context to Docker daemon  41.54MB[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 1/20 : FROM cnn-trends-base as stage0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 25ea447e692f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 2/20 : LABEL snp-multi-stage="intermediate"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 7b58708de88c[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 7b58708de88c[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> e26dba1c76ee[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 3/20 : LABEL snp-multi-stage-id="4efe0954-1781-48c6-ae70-01a3cd2721d0"[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 9eeb580390bf[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 9eeb580390bf[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 8a5f0a7e747e[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 4/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in d1b9ef73003b[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container d1b9ef73003b[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 6081dd3d3bf3[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 5/20 : COPY opt /opt[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> b74d038c641c[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 6/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 8e44f238e12d[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 8e44f238e12d[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 81e5e8367719[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 7/20 : RUN ["chmod", "-R", "u=rX,g=rX", "/opt/docker"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 1575b93f5dd4[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 1575b93f5dd4[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> f89cd9ab7aad[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 8/20 : RUN ["chmod", "u+x,g+x", "/opt/docker/bin/cnn-trends"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 293e4fb56efb[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 293e4fb56efb[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> ea136580fa74[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 9/20 : RUN ["chmod", "u+x,g+x", "/opt/docker/bin/save-trends"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 639a0492854c[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 639a0492854c[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> a3b7ee92dbbe[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 10/20 : RUN ["chmod", "u+x,g+x", "/opt/docker/bin/save-feeds"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 2956d2de1004[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 2956d2de1004[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 01ef6b161b33[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 11/20 : RUN ["chmod", "u+x,g+x", "/opt/docker/bin/parse-saved-rss-feeds"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 7203cb180877[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 7203cb180877[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 97de86359a5e[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 12/20 : FROM cnn-trends-base[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 25ea447e692f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 13/20 : USER root[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 30a31073e17a[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 30a31073e17a[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 794292036bf2[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 14/20 : RUN id -u demiourgos728 1>/dev/null 2>&1 || (( getent group 0 1>/dev/null 2>&1 || ( type groupadd 1>/dev/null 2>&1 && groupadd -g 0 root || addgroup -g 0 -S root )) && ( type useradd 1>/dev/null 2>&1 && useradd --system --create-home --uid 1001 --gid 0 demiourgos728 || adduser -S -u 1001 -G root demiourgos728 ))[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 66024b15e0ea[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 66024b15e0ea[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 157844913367[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 15/20 : WORKDIR /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in ca03b35cd4ea[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container ca03b35cd4ea[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 0e2d6f051976[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 16/20 : COPY --from=stage0 --chown=demiourgos728:root /opt/docker /opt/docker[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 68fd596a935f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 17/20 : EXPOSE 9000 8080 80[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in c481b42a7bdb[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container c481b42a7bdb[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 441d4b64bf8f[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 18/20 : USER 1001:0[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 9de7c3a3c4cb[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 9de7c3a3c4cb[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 7f691e233b0e[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 19/20 : ENTRYPOINT ["/opt/docker/bin/cnn-trends"][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in 611b6948966f[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container 611b6948966f[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> 8a717a564d14[0m
+[0m[[0m[0minfo[0m] [0m[0mStep 20/20 : CMD [][0m
+[0m[[0m[0minfo[0m] [0m[0m ---> Running in c5c92d19970b[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate container c5c92d19970b[0m
+[0m[[0m[0minfo[0m] [0m[0m ---> ece8af7bb85d[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully built ece8af7bb85d[0m
+[0m[[0m[0minfo[0m] [0m[0mSuccessfully tagged cnn-trends:1.0[0m
+[0m[[0m[0minfo[0m] [0m[0mRemoving intermediate image(s) (labeled "snp-multi-stage-id=4efe0954-1781-48c6-ae70-01a3cd2721d0") [0m
+[0m[[0m[0minfo[0m] [0m[0mDeleted Images:[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:97de86359a5ec856caaecb080e263ce3e64d6eee67e4d45ec868b469fa7f26bf[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:7150217574d65ab95933690a2884db38f592471b82c9608a01a9aa0d234d6206[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:01ef6b161b3315faad2df9c037735233b9950239f28c57d7f1ab14dbcc01f562[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:ddaa93f9d7ea295c790a0a6daee29123cb0be095c233f835851c36f375035223[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:a3b7ee92dbbef6678cad2bc3add4a9d149ad660056ea22dc91375254c2fe976c[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:448bafae7f69f33b937302e0ff86928be8e7b50993a03e9b4a5a462ed4d41639[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:ea136580fa74826a2810c4cd04cd35dfff1bc7e0cc2dfde0adf5781e229bf51d[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:bcad9274189197ea3d0e3563666937a117b87dacb7de1b426463136d327f32ac[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:f89cd9ab7aad6ed752722046ccd6e20a03ba781d2a4b9933191bfe895568dd4d[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:4d21acf2fccac3dbc0dbddd9e1754ac5874d5ef6236a5999b2880166f2e383e0[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:81e5e83677192c253dc3f3cd1b8e494cc7f29f79f6b715ef5575e83664a2b0ca[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:b74d038c641c641351402681b323d1f840c521ca604907bdc343dd02e235a25c[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:f8407a2ec050416d3b4eb596722e7521c9fff5e92da4ca67a1b0182777947b31[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:6081dd3d3bf32e64b64c4ef509186c02365ab28c268ab2c392843527e4ad6bbe[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:05df5f18b778dd8050cfc3cba7593b58b6d775768f25d959f4e18d13f0469e1e[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:8a5f0a7e747e8d4a7c773462ff62f2b4fab8addb6f7b14bfa89e177110abfb84[0m
+[0m[[0m[0minfo[0m] [0m[0mdeleted: sha256:e26dba1c76ee475288923a927f38672502929ebb5eead2a47302599b94788035[0m
+[0m[[0m[0minfo[0m] [0m[0mTotal reclaimed space: 83MB[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt image cnn-trends with tags [1.0][0m

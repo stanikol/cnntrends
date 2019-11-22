@@ -1,0 +1,17 @@
+
+(1) Install Java.
+(2) Install Scala Build Tool (sbt).
+(3) Docker:
+        (3.1) Create base image from docker file `$ docker build -t cnn-trends-base docker-img/`
+        (3.2) Run `$ sbt docker:publishLocal` to create docker image `cnn-trends:1.0`.
+        (3.3) Run `$ docker run --rm -ti -p8080:8080 cnn-trends:1.0`
+(4) From shell:
+    (4.1) Install Firefox, and Selenium firefox web driver (https://github.com/mozilla/geckodriver/)
+        E.g. for OSX run:
+            `$ brew cask install firefox`
+            `$ brew install geckodriver`
+    (4.2) Then run `$ sbt run` to compile and run program.
+(5) Open http://<docker-container-ip>:8080/trends in your browser to view cnn news in trends.
+    May take some time to download trends and rss feeds.
+
+

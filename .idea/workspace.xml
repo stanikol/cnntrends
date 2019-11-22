@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="465f2958-8f97-4419-ba4b-b66db5292c22" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TyFqy33gAmDG8xoDR6c4Lff3Tu" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="cnn-trends" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="cnntrends [file:/Users/snc/scala/cnntrends/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="cnn-trends-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../Realist" value="1454242567000" />
+        <entry key="$PROJECT_DIR$/../ScalaMl-master" value="1437344480000" />
+        <entry key="$PROJECT_DIR$/../akka-stream-scala" value="1476102171000" />
+        <entry key="$PROJECT_DIR$/../akka.js-examples/calculator" value="1481538407000" />
+        <entry key="$PROJECT_DIR$/../akka.js-examples/todo" value="1481538407000" />
+        <entry key="$PROJECT_DIR$/../alex-schloh" value="1488238631000" />
+        <entry key="$PROJECT_DIR$/../alexschloh" value="1489192972000" />
+        <entry key="$PROJECT_DIR$/../alexshop" value="1488154760000" />
+        <entry key="$PROJECT_DIR$/../boilerplay" value="1481114234000" />
+        <entry key="$PROJECT_DIR$/../center" value="1456490571000" />
+        <entry key="$PROJECT_DIR$" value="4722995364871" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2606322250" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="2678115315" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="1611263759" />
+        <entry key="$PROJECT_DIR$/../computer-database-scala" value="1474747860000" />
+        <entry key="$PROJECT_DIR$/../curds copy" value="1430806674000" />
+        <entry key="$PROJECT_DIR$/../curds2" value="1430806674000" />
+        <entry key="$PROJECT_DIR$/../curdx" value="1435918657000" />
+        <entry key="$PROJECT_DIR$/../du" value="1440502788000" />
+        <entry key="$PROJECT_DIR$/../du2" value="1440507964000" />
+        <entry key="$PROJECT_DIR$/../dziva" value="1473804159000" />
+        <entry key="$PROJECT_DIR$/../dziva_v1" value="1473331329000" />
+        <entry key="$PROJECT_DIR$/../fpinscala-master" value="1435942788000" />
+        <entry key="$PROJECT_DIR$/../framian-tutorial-master" value="1415014064000" />
+        <entry key="$PROJECT_DIR$/../full_stack_scala_starter" value="1477056667000" />
+        <entry key="$PROJECT_DIR$/../lojinha" value="1477999834000" />
+        <entry key="$PROJECT_DIR$/../maca" value="1477994832000" />
+        <entry key="$PROJECT_DIR$/../master" value="1445242125000" />
+        <entry key="$PROJECT_DIR$/../mhtml-todo" value="1479395981000" />
+        <entry key="$PROJECT_DIR$/../ms-shopping-basket-scala" value="1476906845000" />
+        <entry key="$PROJECT_DIR$/../nuts" value="1485015184000" />
+        <entry key="$PROJECT_DIR$/../nutsshop" value="1484769331000" />
+        <entry key="$PROJECT_DIR$/../olx" value="1460586332000" />
+        <entry key="$PROJECT_DIR$/../olxdown" value="1459285525000" />
+        <entry key="$PROJECT_DIR$/../olxscraper" value="1462959058000" />
+        <entry key="$PROJECT_DIR$/../play-multidomain-auth" value="5911366844000" />
+        <entry key="$PROJECT_DIR$/../play-scala-slickpg-play2auth" value="1473329674000" />
+        <entry key="$PROJECT_DIR$/../play-scalajs-showcase" value="1473376031000" />
+        <entry key="$PROJECT_DIR$/../play-silhouette-4.0-slick-postgres-seed" value="1489851055000" />
+        <entry key="$PROJECT_DIR$/../play-silhouette-angular-seed" value="1481878176000" />
+        <entry key="$PROJECT_DIR$/../play-silhouette-credentials-seed" value="1477852878000" />
+        <entry key="$PROJECT_DIR$/../play-silhouette-slick-seed" value="1477842449000" />
+        <entry key="$PROJECT_DIR$/../play-slick-silhouette-auth-api" value="1481126258000" />
+        <entry key="$PROJECT_DIR$/../rbs_ts" value="1433331766000" />
+        <entry key="$PROJECT_DIR$/../realesta" value="1476561779000" />
+        <entry key="$PROJECT_DIR$/../reductions" value="1465226482000" />
+        <entry key="$PROJECT_DIR$/../scalajs-spa-tutorial" value="1479395231000" />
+        <entry key="$PROJECT_DIR$/../scalashop" value="1465225094000" />
+        <entry key="$PROJECT_DIR$/../silhouette/play-silhouette-4.0-slick-postgres-seed" value="1485035373000" />
+        <entry key="$PROJECT_DIR$/../spark-tutorial" value="1462957048000" />
+        <entry key="$PROJECT_DIR$/../test-quill" value="1488245831000" />
+        <entry key="$PROJECT_DIR$/../tsc" value="1433839268000" />
+        <entry key="$PROJECT_DIR$/../walnuts" value="1485976344000" />
+        <entry key="$PROJECT_DIR$/../walnuts2" value="1485023337000" />
+        <entry key="$PROJECT_DIR$/../wnshop" value="1484784169000" />
+        <entry key="$PROJECT_DIR$/../xcd" value="1435913549000" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/jobs/BatchGeocodingInScalaUsingGoogleAPI" value="PREVIEW" />
+        <entry key="$USER_HOME$/jobs/DavidPortabella/BatchGeocodingInScalaUsingGoogleAPI" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../blockapi" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../boilerplay" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../cats-effect-tutorial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../cnntest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../fpinscala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../http4s" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../newnut" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../newnut.old" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../newnuts" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../olx-old" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../olx2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../prom" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../promua" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../pstread" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tmp/akka-streams-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../tmp/test-article-extract" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../vivino" value="PREVIEW" />
+        <entry key="$USER_HOME$/upwork/BatchGeocodingInScalaUsingGoogleAPI" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="xml" value="XML" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="465f2958-8f97-4419-ba4b-b66db5292c22" name="Default Changelist" comment="" />
+      <created>1574424622393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574424622393</updated>
+    </task>
+    <servers />
+  </component>
+</project>
