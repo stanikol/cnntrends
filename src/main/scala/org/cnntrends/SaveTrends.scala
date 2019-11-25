@@ -18,7 +18,7 @@ import slick.jdbc.JdbcProfile
 import scala.collection.JavaConverters._
 import scala.concurrent.duration._
 import scala.concurrent.{ExecutionContextExecutor, Future}
-import scala.util.{Success, Try}
+import scala.util.{Failure, Success, Try}
 
 object SaveTrends {
   implicit val system: ActorSystem = ActorSystem()
@@ -85,6 +85,9 @@ object SaveTrends {
       webDriver.map(_.quit())
       println("Firefox is closed")
     }
+  }.recoverWith{case e=>
+    println(s"Error when downloading trends:${e.getLocalizedMessage}")
+    Failure(e)
   }
 
   def parseHTML(element: WebElement, date: LocalDate): Try[GoogleTrend] = Try {

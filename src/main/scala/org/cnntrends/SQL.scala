@@ -65,7 +65,7 @@ object SQL {
 
   def selectInTrendFeeds =
     sql"""select f."title", g."key_words", f."pubDate", f."description", f."topic", f."link", g."link" as "google_link", g."searchCount", g."date"
-          from "rss_feeds" f inner join "google_trends" g on locate(g."title2", f."title2") >0;"""
+          from "rss_feeds" f inner join "google_trends" g on locate(g."title2", f."title2") >0 or locate(f."title2", g."title2") >0;"""
 
   def delme = sql"select 11;"
 //  implicit val localDateType = MappedColumnType.base[LocalDate, Date](
@@ -79,3 +79,6 @@ object SQL {
 //  )
 
 }
+
+//harry morton founder of pink taco restaurant chain dies at 38
+//harry morton founder of pink taco restaurant chain dies at 38 cnn

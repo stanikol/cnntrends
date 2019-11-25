@@ -4,7 +4,7 @@
 (3) Docker:
         (3.1) Create base image from docker file `$ docker build -t cnn-trends-base docker-img/`
         (3.2) Run `$ sbt docker:publishLocal` to create docker image `cnn-trends:1.0`.
-        (3.3) Run `$ docker run --rm -ti -p8080:8080 cnn-trends:1.0`
+        (3.3) Run `$ docker run --name cnn -ti -p8080:8080 cnn-trends:1.0`
 (4) From shell:
     (4.1) Install Firefox, and Selenium firefox web driver (https://github.com/mozilla/geckodriver/)
         E.g. for OSX run:
